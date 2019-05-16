@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/mkt-timing-demo/precache-manifest.90230d9e95bfc641a7623ef26494f3d3.js"
+  "/mkt-timing-eval/precache-manifest.9b70da0c31797d4311c93207cc353002.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/mkt-timing-demo/index.html", {
+workbox.routing.registerNavigationRoute("/mkt-timing-eval/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
