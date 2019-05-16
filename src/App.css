@@ -1,0 +1,103 @@
+/* grid stuff from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
+ */
+
+.hovwrapper > div {
+  border: 2px solid rgb(233, 171, 88);
+  border-radius: 5px;
+  background-color: rgba(233, 171, 88, 0.5);
+  padding: 0.5em;
+  color: #d9480f;
+}
+.hovwrapper {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-gap: 4px;
+}
+.hovtbl {
+  border: 1px solid maroon;
+}
+
+div.daily {
+  float: left;
+  margin: 10px;
+}
+div.dcadaily {
+  float: right;
+  margin: 10px;
+}
+path {
+  fill: none;
+  stroke-width: 1;
+}
+.trade-line {
+  stroke-width: 0.5;
+}
+.aboveZero {
+  stroke: blue;
+}
+.belowZero {
+  stroke: red;
+}
+
+.zero {
+  stroke: gray;
+}
+/* buy sell colors */
+.buy {
+  stroke: #0308a6;
+}
+.sell {
+  stroke: #b5b200;
+}
+/* Axis color */
+.axis {
+  color: #301d2e;
+}
+
+/* Main line colors */
+.blue {
+  stroke: #ff00ea;
+}
+.red {
+  stroke: #5201a8;
+}
+/* Area colors */
+.greenArea {
+  fill: #01ab53;
+}
+.redArea {
+  fill: #ff1500;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
