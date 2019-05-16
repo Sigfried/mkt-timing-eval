@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/mkt-timing-eval/precache-manifest.9b70da0c31797d4311c93207cc353002.js"
+  "/mkt-timing-eval/precache-manifest.aa3e441798241e8782d2916dbdb1acda.js"
 );
 
 workbox.clientsClaim();
